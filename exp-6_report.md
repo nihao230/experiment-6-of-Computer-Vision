@@ -16,7 +16,7 @@ PyTorch 复现原论文 [Xception: Deep Learning with Depthwise Separable Convol
 
 #### 二、实验内容
 ##### 1、Inception & Xception
-Xcaption 脱胎于 Inception （正如其名，Extreme Inception）。Iception 思想是将卷积拆分为 cross-channel conv & Spatial conv，更精确来说就是先 **1×1 卷积** 将数据映射到几个不同 Channel （< Input Channel），然后再分别用 **3×3、5×5 ** conv ，也就是原Paper Figure 1描述的这样。
+Xcaption 脱胎于 Inception （正如其名，Extreme Inception）。Iception 思想是将卷积拆分为 cross-channel conv & Spatial conv，更精确来说就是先 ** 1×1 卷积 ** 将数据映射到几个不同 Channel （< Input Channel），然后再分别用 **3×3、5×5 ** conv ，也就是原Paper Figure 1描述的这样。
 
 ![](photos/paper_f1.png)
 
